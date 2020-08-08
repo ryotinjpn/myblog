@@ -22,8 +22,8 @@ Edit Post
     <span class="error">{{ $errors->first('body') }}</span>
     @endif
   </p>
-  <input type="submit" value="Update">
   <p>
+    <input type="submit" value="Update">
   </p>
 
 </form>
